@@ -1,0 +1,192 @@
+﻿text,true_label,predicted_label,included_in_primary_metric
+двойной залог в отеле заблокировали сверх суммы,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+двойной холд в гостинице заблокировали сверх оплаты освободите,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+поступления от клиентов разворачиваются снимите частично,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+Face ID крутится и откатывает на экран входа пароль верный,APP_LOGIN,APP_LOGIN,True
+операции по 99 руб списались подряд без меня,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+биометрия ошибка при входе отпечаток не срабатывает,APP_LOGIN,APP_LOGIN,True
+незнакомая подписка списывает 349 ежемесячно отключите,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+веб пускает мобильное пишет аккаунт не найден странно,APP_LOGIN,APP_LOGIN,True
+кнопка «Войти» не активна хотя поля заполнены корректно,APP_LOGIN,APP_LOGIN,True
+камера на видеоидентификации перевёрнута вверх ногами,APP_TECH,KYC_VERIFICATION,True
+оспаривал операцию 2 недели статус рассмотрение ускорьте,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+инн вводится правильно но поле ругается формат невалидный,KYC_VERIFICATION,KYC_VERIFICATION,True
+частичный возврат за товар прошел вторая часть висит,INCOMING_DELAY,INCOMING_DELAY,True
+выписка показывает неизвестный интернет магазин отмените,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+паспорт другого государства не принимается укажите список допустимых,KYC_VERIFICATION,KYC_VERIFICATION,True
+отпечаток не работает и пароль не помню,APP_LOGIN,APP_LOGIN,True
+"PIN заблокирован после неверных попыток, как установить новый онлайн без визита?",CARD_ISSUE,CARD_ISSUE,True
+ФИО в анкете совпадает с паспортом но система пишет не совпадает,KYC_VERIFICATION,KYC_VERIFICATION,True
+"Сбросил пароль, по ссылке вошёл, потом снова «неверные учетные данные».",APP_LOGIN,APP_LOGIN,True
+перевод с маркетплейса обычно день в день сегодня тишина,INCOMING_DELAY,INCOMING_DELAY,True
+камера перевернута на видео идентификации картинка вверх ногами,APP_TECH,KYC_VERIFICATION,True
+фишинговая ссылка ввел данные прошу сменить доступы,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+увидел вход с неизвестного устройства я не логинился,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+входящие блокируются из-за ограничений нам нужно платить подрядчикам,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+SEPA с Польши обычно сутки сейчас третий день пусто,INCOMING_DELAY,INCOMING_DELAY,True
+верификация отклонена без пояснений где причины,KYC_VERIFICATION,KYC_VERIFICATION,True
+раздел «Платежи» открывается по 20 секунд иногда вылетает,APP_TECH,APP_TECH,True
+пополнение с карты другого банка в мой кошелек висит без статуса,INCOMING_DELAY,PAYMENT_OUT_FAIL,True
+SWIFT USD в пути пятый день как отследить прохождение,INCOMING_DELAY,INCOMING_DELAY,True
+шаблоны платежей пропали после апдейта как вернуть,APP_TECH,APP_TECH,True
+кэшбэк до 5 рабочих дней прошло 9 ничего не упало,INCOMING_DELAY,INCOMING_DELAY,True
+App Store не просит 3DS платёж падает сразу что делать,PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+не удается сменить пин приложение пишет операция отклонена,CARD_ISSUE,CARD_ISSUE,True
+перевод по реквизитам юрлица отклонен требуется договор укажите форму назначения,PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+после запроса на разблокировку статус «на рассмотрении» третьи сутки,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+"Вводил правильный пароль, пишет «неверно». Сбросил пароль — ссылка пришла, но снова не пускает.",APP_LOGIN,APP_LOGIN,True
+"Два одинаковых листинга операции в истории, списание одно. Почему дублируется?",FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+другое гражданство подскажите список документов,KYC_VERIFICATION,KYC_VERIFICATION,True
+двухфакторная включена но пуши не доходят,APP_LOGIN,APP_LOGIN,True
+карта перевыпущена но в приложении отображается как неактивна,CARD_ISSUE,CARD_ISSUE,True
+при открытии раздела карты приложение зависает помогает только перезапуск,APP_TECH,APP_TECH,True
+карта определяется как виртуальная хотя физическая терминалы отказывают,CARD_ISSUE,CARD_ISSUE,True
+перевыпущенная карта приехала но не видна в приложении,CARD_ISSUE,CARD_ISSUE,True
+лимит на снятие нал ограничен нужно временно поднять,CARD_ISSUE,ACCOUNT_SEIZED,True
+видеозвонок обрывается стабильно на 25 30 секунде,KYC_VERIFICATION,KYC_VERIFICATION,True
+карта не привязывается к кошельку пишет эмитент не поддерживает раньше работало,CARD_ISSUE,CARD_ISSUE,True
+"при входе через биометрию «ошибка датчика», обычный вход просит код из push",APP_LOGIN,APP_LOGIN,True
+нужен временный рост лимита на снятие банкомат отказал,CARD_ISSUE,CARD_ISSUE,True
+раздел платежи открывается 20 секунд иногда вылетает,APP_TECH,APP_TECH,True
+"На новом телефоне пишет «аккаунт не найден», на старом всё работает.",APP_LOGIN,APP_LOGIN,True
+перевёл «знакомому» по ссылке оказался мошенник отменить,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+ограничили входящие средства по постановлению требую частичное снятие,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+ИНН вводится но система говорит невалидный формат хотя номер верный,KYC_VERIFICATION,KYC_VERIFICATION,True
+адрес подтверждения не приняли квитанция читаемая свежая,KYC_VERIFICATION,KYC_VERIFICATION,True
+"IBAN у получателя верный, система пишет «некорректный IBAN».",PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+перевод внутри банка отклонён службой безопасности,ACCOUNT_SEIZED,PAYMENT_OUT_FAIL,True
+При входе через Face ID крутится загрузка и возвращает на экран логина.,APP_TECH,APP_LOGIN,True
+в приложении пишет аккаунт заблокирован службой безопасности,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+регулярка не сработала говорит недостаточно средств деньги были,PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+покупка списана больше чем в чеке разница 120 рублей,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+SEPA EUR отправили вчера днём у меня ноль где статус,INCOMING_DELAY,INCOMING_DELAY,True
+SEPA из Германии отправили позавчера обычно день сейчас третий день — пусто.,INCOMING_DELAY,INCOMING_DELAY,True
+прошу частично снять ограничения для оплаты аренды,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+двухфакторка включена но нет уведомлений и кодов,APP_LOGIN,APP_LOGIN,True
+инн формат верный система ругается невалидный,KYC_VERIFICATION,KYC_VERIFICATION,True
+двойное списание Parking 300 руб чек один отмените,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+блокировка по 115-ФЗ операции остановлены список документов,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+в выписке нашёл две одинаковые операции сумма 640 оба списались верните одну,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+покупка через кошелёк прошла дважды чек один,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+услуга связи оплачена дважды потому что завис терминал прошу отменить вторую,PAYMENT_OUT_FAIL,FRAUD_SUSPECTED,True
+при оплате онлайн карта помечена как неактивна хотя активировал,CARD_ISSUE,CARD_ISSUE,True
+блокировка по 115 фз операции остановлены прошу список документов,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+аккаунт помечен службой безопасности куда загружать объяснения,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+возврат за отменённый заказ создан позавчера средств нет,INCOMING_DELAY,INCOMING_DELAY,True
+загрузка документов падает с ошибкой 500 попробуйте позже,APP_TECH,APP_TECH,True
+паспорт просрочен загрузил новый система все равно отклоняет старый,KYC_VERIFICATION,KYC_VERIFICATION,True
+SEPA CHF отправлен банк говорит ждите у меня пусто,INCOMING_DELAY,INCOMING_DELAY,True
+зачисление по QR оплате не отразилось хотя оплата прошла,INCOMING_DELAY,INCOMING_DELAY,True
+Перевод по номеру у отправителя списался у меня не зачислен скрин у него есть.,INCOMING_DELAY,INCOMING_DELAY,True
+SWIFT USD в пути пятый день где статус прохождения,INCOMING_DELAY,INCOMING_DELAY,True
+вижу магазин в выписке которого не знаю отмените,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+"Карта просрочена, перевыпуск не получил. Онлайн-платежи теперь не проходят.",CARD_ISSUE,CARD_ISSUE,True
+PIN заблокирован после неверных попыток как сменить дистанционно,CARD_ISSUE,CARD_ISSUE,True
+SWIFT USD отклонён банком-корреспондентом комментариев нет,PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+"SWIFT EUR: банк-корреспондент отклонил, комментариев нет.",PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+после обновления главный экран пустой баланс не грузится,APP_TECH,APP_TECH,True
+виджет баланса показывает ноль а в приложении сумма другая,APP_TECH,APP_TECH,True
+привязка к кошельку не завершается эмитент не поддерживает,CARD_ISSUE,CARD_ISSUE,True
+после изменения почты вход невозможен пишет неверный логин,APP_LOGIN,APP_LOGIN,True
+всплывает окно подтвердить через старое устройство доступа нет помогите,APP_LOGIN,APP_LOGIN,True
+источник средств требуются справки куда грузить,KYC_VERIFICATION,KYC_VERIFICATION,True
+перевод по реквизитам создан но кнопка подписать неактивна,PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+магнитная полоса не читается чип иногда тоже отказывает,CARD_ISSUE,CARD_ISSUE,True
+Ошибка аутентификации 401 при входе через e-mail. Сброс пароля не помогает.,APP_LOGIN,APP_LOGIN,True
+кнопка отправить сообщение в чате не активна,APP_TECH,APP_TECH,True
+судебный арест наложен ночью смс не было как получить копию,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+Face ID крутится и возвращает на экран логина. Пароль верный.,APP_LOGIN,APP_LOGIN,True
+оплата в App Store проваливается без запроса 3ds кода,PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+партнер отправил промежуточный платеж статус «обрабатывается» вторые сутки,INCOMING_DELAY,INCOMING_DELAY,True
+код из смс приходит с короткого номера и уже просрочен не успеваю,APP_LOGIN,APP_LOGIN,True
+банкомат съел карту адрес Невский 14 как заблокировать и вернуть,CARD_ISSUE,CARD_ISSUE,True
+списание больше чем в чеке разница 85 рублей,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+спор по операции висит 11 дней просьба ускорить,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+финмон запросил источник средств куда загрузить файлы,ACCOUNT_SEIZED,KYC_VERIFICATION,True
+двойное списание в магазине чек один верните лишнее,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+"Получил письмо «подтвердите аккаунт», перешёл по ссылке и ввёл данные. Теперь переживаю. Проверьте доступы.",FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+Слишком много попыток система заблокировала вход,APP_LOGIN,APP_LOGIN,True
+лимит на снятие не подходит нужен временный рост,CARD_ISSUE,ACCOUNT_SEIZED,True
+возврат налога через госслужбу в статусе отправлено на зачисление но пусто,INCOMING_DELAY,INCOMING_DELAY,True
+комплаенс запросил выписки загрузил пришёл ответ недостаточно что ещё,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+оплата телефона через шаблон падает с ошибкой 500,PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+кэшбэк обещали до 5 рабочих прошло 9 все еще ноль,INCOMING_DELAY,INCOMING_DELAY,True
+фильтр по датам не сохраняется сбрасывается после закрытия,APP_TECH,APP_TECH,True
+nfc периодически не срабатывает оплата с 3 попытки,CARD_ISSUE,CARD_ISSUE,True
+перевод внутри банка с карты на счет возвращается ошибка операция запрещена,PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+выплата страховой задерживается второй день статус неизвестен,INCOMING_DELAY,INCOMING_DELAY,True
+селфи провал по мимике свет разный пробовал не проходит,KYC_VERIFICATION,KYC_VERIFICATION,True
+cvv скрыт и не раскрывается оплатить сервис невозможно,CARD_ISSUE,CARD_ISSUE,True
+верификация отклонена пишет некорректный документ фото четкое,KYC_VERIFICATION,KYC_VERIFICATION,True
+"Верификация не проходит: просит повторно загрузить паспорт, но ошибок не показывает.",KYC_VERIFICATION,KYC_VERIFICATION,True
+ФИО не совпадает с документом хотя совпадает как исправить,KYC_VERIFICATION,KYC_VERIFICATION,True
+настройка push возвращается в выкл после перезапуска,APP_TECH,APP_TECH,True
+банкомат удержал карту и выключился что делать,CARD_ISSUE,CARD_ISSUE,True
+вид на жительство загружен пишет «неподходящий тип»,KYC_VERIFICATION,KYC_VERIFICATION,True
+пополнение брокерского отклонено по правилам банка причина не указана,PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+"Вхожу через веб, окей; в мобильном — «пользователь заблокирован». Почему так?",APP_LOGIN,APP_LOGIN,True
+пришло смс с кодом входа хотя я не входил кто-то пытается авторизоваться,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+сервис списал больше чем в чеке нужна корректировка суммы,PAYMENT_OUT_FAIL,FRAUD_SUSPECTED,True
+не могу войти пишет устройство не доверено старого телефона нет как подтвердить,APP_LOGIN,APP_LOGIN,True
+"Face ID не срабатывает, пароль верный. Войти нельзя.",APP_LOGIN,APP_LOGIN,True
+получил постановление ФССП дайте реквизиты куда платить,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+аккаунт нашли но просит подтвердить старый номер которого нет,APP_LOGIN,APP_LOGIN,True
+вижу в выписке магазин которого не знаю отмена операции,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+двойное списание в супермаркете чек один верните лишнее,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+"банкомат списал наличные и выдал ошибку деньги не получил, помогите",CARD_ISSUE,CARD_ISSUE,True
+входящий перевод внутри банка идёт слишком долго,INCOMING_DELAY,INCOMING_DELAY,True
+"СБП перевод создаётся, но кнопка «Отправить» неактивна.",PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+Перевод на карту мир уходит в неизвестный статус в истории пусто,PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+входящий перевод в тенге отправлен конвертации и зачисления нет,INCOMING_DELAY,INCOMING_DELAY,True
+"СБП: «банк получателя недоступен», пробовал утром и вечером — одинаково.",PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+зарплата обычно утром сегодня весь день тишина проверьте,INCOMING_DELAY,INCOMING_DELAY,True
+Оплата связи прошла частично одна из двух квитанций не оплачена,PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+карта треснула терминалы часто отказывают как ускоренно заменить,CARD_ISSUE,CARD_ISSUE,True
+перевод из криптобиржи в фиате отправлен но банк пишет требуется время на проверку денег нет,INCOMING_DELAY,INCOMING_DELAY,True
+зачисление компенсации согласовали но денег нет уже 4 дня,INCOMING_DELAY,INCOMING_DELAY,True
+экспорт выписки в CSV создаёт пустой файл,APP_TECH,APP_TECH,False
+Получил уведомление: «операции ограничены по требованию органа». Что это и как снять запрет?,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+"Перевод по номеру телефона висит в обработке уже час, деньги не списаны.",PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+реестр зарплаты выгружен у коллег деньги есть у меня нет,INCOMING_DELAY,INCOMING_DELAY,True
+операция запрещена внутри банка из-за ограничений,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+Пополнение брокерского счёта отклонено «по правилам банка». Поясните причину.,PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+"Push для входа не приходит уже второй день, смс тоже тишина.",APP_LOGIN,APP_LOGIN,True
+ИНН вводится правильно поле ругается формат невалидный,KYC_VERIFICATION,KYC_VERIFICATION,True
+заверенная копия паспорта не подходит требуется оригинал скан верно,KYC_VERIFICATION,KYC_VERIFICATION,True
+выплата партнёра пришла частично остаток не дошёл,INCOMING_DELAY,INCOMING_DELAY,True
+пополнение кошелька заблокировано mcc запрещён можно временно разрешить,PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+перевод юрлицу вернулся не совпадает наименование получателя с ИНН как указать правильно,PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+просит подтвердить источник средств куда загрузить справки,KYC_VERIFICATION,KYC_VERIFICATION,True
+"Оплата в магазине отменена, холд повис. Сколько ждать возврат",PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+"двухфакторка включена, коды из генератора не принимает",APP_LOGIN,APP_LOGIN,True
+"Международный EUR: «IBAN некорректный», у получателя верный.",PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+две одинаковые карты в приложении одна серая операции путаются,CARD_ISSUE,CARD_ISSUE,True
+после смены ОКВЭД наложили заморозку что предоставить,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+при сохранении шаблона платежа пишет unexpected error 500,APP_TECH,APP_TECH,True
+"Номер карты отображается, CVV скрыт и не раскрывается. Как получить доступ?",CARD_ISSUE,CARD_ISSUE,True
+селфи отклонено из-за мимики что именно нужно сделать чтобы приняли,KYC_VERIFICATION,KYC_VERIFICATION,True
+аналитика расходов крутится бесконечно данных не видно,APP_TECH,APP_TECH,True
+новая карта не активируется автоответчик сбрасывает,CARD_ISSUE,CARD_ISSUE,True
+письмо подтверждения почты приходит без рабочей ссылки,APP_LOGIN,APP_LOGIN,True
+карта на карту отклонена банк получателя недоступен,PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+блок по 115 фз счет стоит аренду платить нечем срочно,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+документы отправил неделю назад статус «на рассмотрении» как ускорить,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+"Счёт заблокирован по 115-ФЗ, операции остановлены. Нужен список документов для проверки.",ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+"магическая ссылка на почту открывается, но приложение не авторизует",APP_LOGIN,APP_LOGIN,True
+аналитика расходов крутится бесконечно,APP_TECH,APP_TECH,True
+страница паспорта обрезалась при кадрировании как исправить,KYC_VERIFICATION,KYC_VERIFICATION,True
+нерезидент подскажите полный перечень документов,KYC_VERIFICATION,KYC_VERIFICATION,True
+загрузил договоры и счета фактуры ответьте приняли ли документы,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+"Межбанк на ИП ушёл, но в назначении требовали договор, укажите пример",PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
+возврат магазина оформлен 7 дней назад на счет не пришло,INCOMING_DELAY,INCOMING_DELAY,True
+PDF-выписки не открываются пишет «файл повреждён»,APP_TECH,APP_TECH,True
+Счёт ограничен по требованию органа операции запрещены что делать,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+выплата от страховой задерживается третий день статус неизвестен,INCOMING_DELAY,INCOMING_DELAY,True
+подтверждение адреса отклонено по причине не читается хотя скан четкий,KYC_VERIFICATION,KYC_VERIFICATION,True
+перевод внутри банка отклонён службой безопасности требуется проверка,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+банкомат съел карту центральная 3 как заблокировать и вернуть,CARD_ISSUE,CARD_ISSUE,True
+перешёл на фальшивый сайт похожий на ваш ввёл логин/пароль,FRAUD_SUSPECTED,FRAUD_SUSPECTED,True
+сброс пароля по ссылке 500 ошибка сервера,APP_LOGIN,APP_LOGIN,True
+арест ФССП без уведомления прошу реквизиты для оплаты постановления,ACCOUNT_SEIZED,ACCOUNT_SEIZED,True
+"CVV в приложении не раскрывается, из-за этого не могу оплатить подписку. Как показать код?",CARD_ISSUE,CARD_ISSUE,True
+перевод юрлицу вернулся банк получателя отказал,PAYMENT_OUT_FAIL,PAYMENT_OUT_FAIL,True
