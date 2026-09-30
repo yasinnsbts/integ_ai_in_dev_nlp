@@ -1,0 +1,62 @@
+{
+  "source_repository": "https://github.com/yasinnsbts/integ_ai_in_dev_nlp",
+  "source_commit": "12d4c9e1cb42384d6b46e8110d819add4bfd9eac",
+  "model_name": "exp3_char_svc",
+  "pipeline": "Pipeline(steps=[('tfidf',\n                 TfidfVectorizer(analyzer='char_wb', ngram_range=(3, 5))),\n                ('classifier', LinearSVC(max_iter=5000, random_state=42))])",
+  "trained_on": "original data/processed/train.csv only",
+  "train_rows": 764,
+  "data_sha256": {
+    "train": "b3ccd2b1675f95694307c6f2bd56e6fe8e466e815963d46424bf81deda48643d",
+    "test": "56e1066375f6abf50d03be025b52917fd30473fb136c73a20fc7558a1cf81d71"
+  },
+  "seed": 42,
+  "cv": "StratifiedGroupKFold, 5 folds; groups = lowercased whitespace-normalized text",
+  "versions": {
+    "python": "3.13.13",
+    "scikit-learn": "1.8.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "joblib": "1.5.3"
+  },
+  "labels": {
+    "ACCOUNT_SEIZED": "Ограничения и блокировка счёта",
+    "APP_LOGIN": "Проблемы со входом",
+    "APP_TECH": "Технические проблемы приложения",
+    "CARD_ISSUE": "Проблемы с картой",
+    "FRAUD_SUSPECTED": "Подозрение на мошенничество",
+    "INCOMING_DELAY": "Задержка входящего платежа",
+    "KYC_VERIFICATION": "Проверка личности и документов",
+    "PAYMENT_OUT_FAIL": "Проблемы с исходящим платежом"
+  },
+  "test_metrics": {
+    "primary_test_without_train_duplicates": {
+      "n": 190,
+      "accuracy": 0.9473684210526315,
+      "precision_macro": 0.9509152421652421,
+      "recall_macro": 0.9431014328808447,
+      "f1_macro": 0.9449919756750492
+    },
+    "original_test_all_rows": {
+      "n": 191,
+      "accuracy": 0.9476439790575916,
+      "precision_macro": 0.9509152421652421,
+      "recall_macro": 0.9443269230769231,
+      "f1_macro": 0.9457251135049612
+    },
+    "excluded_test_rows": [
+      145
+    ]
+  },
+  "round_trip": {
+    "pipeline": true,
+    "separate_components": true,
+    "rows_checked": 191
+  },
+  "has_predict_proba": false,
+  "artifact_sha256": {
+    "bank_classifier.joblib": "53a4e87def6c32cb5586252f8067896786211d658b9b2e9d35dd179ce321df13",
+    "classifier.joblib": "f03a43b3b31abbb8c4edf6b8941cce82ff98655404143b411f4b9728d6903513",
+    "vectorizer.joblib": "a43dd291bfd4b54ae8b884b4b07578d986645d7a77b29023449c22d25a9ef23c"
+  }
+}

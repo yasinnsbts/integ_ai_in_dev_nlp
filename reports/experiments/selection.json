@@ -1,0 +1,7 @@
+{
+  "model": "exp3_char_svc",
+  "rule": "max CV mean F1-macro, then min std, then model name",
+  "test_used_for_selection": false,
+  "cv_f1_macro_mean": 0.9504914354614404,
+  "cv_f1_macro_std": 0.013760314453468973
+}

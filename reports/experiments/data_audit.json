@@ -1,0 +1,26 @@
+{
+  "train_rows": 764,
+  "test_rows": 191,
+  "classes": [
+    "ACCOUNT_SEIZED",
+    "APP_LOGIN",
+    "APP_TECH",
+    "CARD_ISSUE",
+    "FRAUD_SUSPECTED",
+    "INCOMING_DELAY",
+    "KYC_VERIFICATION",
+    "PAYMENT_OUT_FAIL"
+  ],
+  "normalization_for_duplicate_check": "lowercase, collapse whitespace, strip",
+  "train_exact_duplicates": 0,
+  "test_exact_duplicates": 0,
+  "train_normalized_duplicates": 2,
+  "test_normalized_duplicates": 0,
+  "exact_overlap": 0,
+  "normalized_overlap_test_rows": 1,
+  "primary_test_rows": 190,
+  "csv_sha256": {
+    "train": "b3ccd2b1675f95694307c6f2bd56e6fe8e466e815963d46424bf81deda48643d",
+    "test": "56e1066375f6abf50d03be025b52917fd30473fb136c73a20fc7558a1cf81d71"
+  }
+}

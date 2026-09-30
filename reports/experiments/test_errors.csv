@@ -1,0 +1,11 @@
+﻿text,true_label,predicted_label,included_in_primary_metric
+камера на видеоидентификации перевёрнута вверх ногами,APP_TECH,KYC_VERIFICATION,True
+камера перевернута на видео идентификации картинка вверх ногами,APP_TECH,KYC_VERIFICATION,True
+пополнение с карты другого банка в мой кошелек висит без статуса,INCOMING_DELAY,PAYMENT_OUT_FAIL,True
+лимит на снятие нал ограничен нужно временно поднять,CARD_ISSUE,ACCOUNT_SEIZED,True
+перевод внутри банка отклонён службой безопасности,ACCOUNT_SEIZED,PAYMENT_OUT_FAIL,True
+При входе через Face ID крутится загрузка и возвращает на экран логина.,APP_TECH,APP_LOGIN,True
+услуга связи оплачена дважды потому что завис терминал прошу отменить вторую,PAYMENT_OUT_FAIL,FRAUD_SUSPECTED,True
+финмон запросил источник средств куда загрузить файлы,ACCOUNT_SEIZED,KYC_VERIFICATION,True
+лимит на снятие не подходит нужен временный рост,CARD_ISSUE,ACCOUNT_SEIZED,True
+сервис списал больше чем в чеке нужна корректировка суммы,PAYMENT_OUT_FAIL,FRAUD_SUSPECTED,True

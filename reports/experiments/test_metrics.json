@@ -1,0 +1,19 @@
+{
+  "primary_test_without_train_duplicates": {
+    "n": 190,
+    "accuracy": 0.9473684210526315,
+    "precision_macro": 0.9509152421652421,
+    "recall_macro": 0.9431014328808447,
+    "f1_macro": 0.9449919756750492
+  },
+  "original_test_all_rows": {
+    "n": 191,
+    "accuracy": 0.9476439790575916,
+    "precision_macro": 0.9509152421652421,
+    "recall_macro": 0.9443269230769231,
+    "f1_macro": 0.9457251135049612
+  },
+  "excluded_test_rows": [
+    145
+  ]
+}
